@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+//const origen: number = 10;
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,9 @@ import { Component } from '@angular/core';
   standalone: false,
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
-  title = 'bases';
+  public title: string = 'Hola mundo';
+
 }
+
